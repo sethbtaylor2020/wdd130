@@ -1,6 +1,12 @@
+:root {
+    --padding:20px;
+    --color: steelblue;
+}
+
+
 nav {
-    background-color: steelblue;
-    padding: 10px;
+    background-color: var(--color);
+    padding: var(--padding);
 }
 
 nav a {
@@ -10,20 +16,20 @@ nav a {
 }
 
 h1 {
-    color: steelblue;
+    color: var(--color);
 }
 
 img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid (var(--color));
     padding: 2px;
     box-shadow: 0 0 30px gray;
 
 }
 
 p {
-    padding: 10px;
+    padding: var(--padding);
 }
 main {
     max-width: 840px;
@@ -32,7 +38,7 @@ main {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid var(--color);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
