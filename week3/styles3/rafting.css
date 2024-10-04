@@ -1,7 +1,7 @@
 .callout {
     display: flex;
     align-items: center;
-	max-width: 400px;
+	max-width: 1700px;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 1);
     padding: 2rem;
@@ -21,10 +21,11 @@
     font-weight: 400;
 }
 .rafting {
-    width: 495px;
+    width: 740px;
     height: 200px;
-    position: relative;
-    align-items: center;
+    position:absolute;
+    left: 50px;
+    
 }
 .stats {
 	position:absolute;
