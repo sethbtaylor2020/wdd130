@@ -10,8 +10,8 @@
 }
 
 .logo {
-    width: 125px;
-    height: 125px;
+    width: 150px;
+    height: 150px;
     position: relative;
     left: 450px;
 }
@@ -21,7 +21,7 @@
     padding: 20px;
     color: black;
     font: georgia;
-    font-weight: 375;
+    font-weight: 325;
     font-size: x-large;
 }
 .rafting {
