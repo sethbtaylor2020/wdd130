@@ -5,7 +5,7 @@
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 1);
     padding: 2rem;
-    background-color: #B4CDE4;
+    background-color: #7CA5B8;
     
 }
 
@@ -32,7 +32,7 @@
 	top: 201px;
     right: 180px;
     font-style: georgia;
-    background-color: #264969;
+    background-color: #020887;
     color: White;
     border: 1px;
     font-size: small;
@@ -43,7 +43,7 @@
 	top: 333px;
     right: 30px;
     font-style: georgia;
-    background-color: #B4CDE4;
+    background-color: #A9DBB8;
     color: black;
     border: 1px;
     font-size: x-small;
@@ -51,7 +51,7 @@
 }
 
 .footerlogo {
-    position: left;
+    position: bottom;
     height: 50px;
     width: auto;
 }
@@ -59,7 +59,7 @@
 .footer {
     position: absolute;
     bottom: 7px;
-    left: 90px;
+    left: 9px;
     font-size: small;
 
 }
