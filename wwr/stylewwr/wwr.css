@@ -61,7 +61,7 @@
     width: 300px;
     height: 200px;
     position:relative;
-    left: 800px;
+    left: 1200px;
     bottom: 250px;
 }
 .stats {
@@ -123,7 +123,7 @@
 
 .textmargin{
     margin-top: 95px;
-    margin-right: 150px;
+    margin-right: 200px;
     background-color: white;
 }
 .textmargin2{
