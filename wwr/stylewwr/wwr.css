@@ -9,14 +9,14 @@
     
 }
 
-.callout2 {
+.hero {
     display: flex;
     align-items: center;
 	max-width: 1700px;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 1);
     padding: 2rem;
-    background-color: #7CA5B8;
+    background-image: url(../wwrimages/hero.jpg);
     
 }
 
@@ -123,21 +123,9 @@
 .textmargin{
     margin-top: 95px;
     margin-right: 150px;
+    background-color: white;
 }
 .textmargin2{
     margin-top: 95px;
 }
 
-.roboto-slab{
-    font-family: "Roboto Slab", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  }
-  
-  .lora{
-    font-family: "Lora", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  }
