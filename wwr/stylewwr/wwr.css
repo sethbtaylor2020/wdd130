@@ -9,6 +9,16 @@
     
 }
 
+.callout2 {
+    display: flex;
+    align-items: center;
+	max-width: 1700px;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 1);
+    padding: 2rem;
+    background-color: #7CA5B8;
+    
+}
 .logo {
     width: 125px;
     height: 125px;
