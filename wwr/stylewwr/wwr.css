@@ -36,10 +36,9 @@
     font-size: xx-large;
 }
 .rafting {
-    width: 740px;
-    height: 200px;
+    width: 200px;
+    height: 100px;
     position:absolute;
-    left: 50px;
     
 }
 .stats {
@@ -92,5 +91,6 @@
 
 }
 .textmargin{
-    margin-top: 75px;
+    margin-top: 95px;
+    margin-right: 150px;
 }
