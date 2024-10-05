@@ -12,6 +12,8 @@
 .logo {
     width: 100px;
     height: 100px;
+    position: relative;
+    left: 150px;
 }
 .nav {
     position: absolute;
