@@ -62,6 +62,7 @@
     height: 200px;
     position:relative;
     right:100px;
+    bottom: 250px;
 }
 .stats {
 	position:absolute;
