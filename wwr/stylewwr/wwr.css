@@ -14,11 +14,13 @@
     height: 100px;
 }
 .nav {
-    position: relative;
+    position: absolute;
+    right: 239px;
     padding: 20px;
     color: black;
     font: georgia;
     font-weight: 400;
+    font-size: x-large;
 }
 .rafting {
     width: 740px;
@@ -60,7 +62,7 @@
     position: absolute;
     bottom: 7px;
     left: 9px;
-    font-size: small;
+    font-size: medium;
 
 }
 
