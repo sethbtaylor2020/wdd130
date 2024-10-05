@@ -38,8 +38,8 @@
 .rafting {
     width: 200px;
     height: 100px;
-    position:absolute;
-    
+    position:relative;
+    right:100px;
 }
 .stats {
 	position:absolute;
