@@ -101,14 +101,17 @@
     position: bottom;
     height: 50px;
     width: auto;
+    right: 0;
+    bottom:0;
 }
 
 .footer {
-    position:fixed;
+    position:bottom;
     bottom:100px;
     left:0px;
     bottom:0px;
     font-family: 'Lora', serif;
+    text-decoration: none;
 }
 
 .social{
