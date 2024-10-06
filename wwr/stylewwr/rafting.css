@@ -78,8 +78,9 @@
 .family {
     float: right;
     position:relative;
-    left: 1125px;
-    bottom: 200px;
+    bottom: 250px;
+    height: 150px;
+
 }
 .footerlogo {
     position: bottom;
