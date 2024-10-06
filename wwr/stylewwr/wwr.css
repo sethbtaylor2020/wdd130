@@ -61,12 +61,12 @@
     font-weight: 30;
     font-size: xx-large;
 }
-.rafting {
+.family {
     width: 300px;
     height: 200px;
     position:relative;
-    left: 1150px;
-    bottom: 225px;
+    left: 1100px;
+    bottom: 175px;
 }
 .stats {
 	position:absolute;
@@ -98,9 +98,9 @@
 }
 
 .footer {
-    position: absolute;
-    bottom: 7px;
-    left: 9px;
+    position:fixed;
+    bottom:0;
+    left:0;
     font-size: medium;
 
 }
@@ -126,7 +126,7 @@
 }
 
 .textmargin{
-    margin-top: 95px;
+    margin-top: 200px;
     margin-right: 300px;
     background-color: white;
 }
