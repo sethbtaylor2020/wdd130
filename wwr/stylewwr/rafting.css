@@ -1,3 +1,11 @@
+:root {
+    --primary-color: #7CA5B8; 
+    --secondary-color: #020887; 
+    --accent-color: #A9DBB8; 
+}
+
+
+
 .callout {
     display: flex;
     align-items: center;
@@ -6,7 +14,7 @@
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 1);
     padding: 2rem;
-    background-color: #7CA5B8;
+    background-color: var(--secondary-color);
     
 }
 
@@ -31,7 +39,7 @@
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 1);
     padding: 2rem;
-    background-color: #7CA5B8;
+    background-color: var(--primary-color);
     font-family: 'Roboto Slab', serif;
     
 }
@@ -44,7 +52,7 @@
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 1);
     padding: 2rem;
-    background-color: #7CA5B8;
+    background-color: var(--primary-color);
     font-family: 'Roboto Slab', serif;
     
 }
@@ -68,35 +76,11 @@
     
 }
 .family {
-    width: 300px;
-    height: 200px;
+    float: right;
     position:relative;
     left: 1125px;
     bottom: 200px;
 }
-.stats {
-	position:absolute;
-	top: 201px;
-    right: 180px;
-    font-style: georgia;
-    background-color: #020887;
-    color: White;
-    border: 1px;
-    font-size: small;
-    box-shadow: 0 0 05px #b7b0b0
-}
-.stats2 {
-    position:absolute;
-	top: 333px;
-    right: 30px;
-    font-style: georgia;
-    background-color: #A9DBB8;
-    color: black;
-    border: 1px;
-    font-size: x-small;
-    box-shadow: 0 0 05px #b7b0b0
-}
-
 .footerlogo {
     position: bottom;
     height: 50px;
@@ -104,7 +88,6 @@
     right: 0;
     bottom:0;
 }
-
 .footer {
     position:bottom;
     bottom:100px;
