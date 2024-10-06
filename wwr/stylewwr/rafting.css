@@ -77,8 +77,8 @@
 .family {
     float: right;
     position:relative;
-    bottom: 75px;
-    height: 150px;
+    bottom: 50px;
+    height: 100px;
 
 }
 .footerlogo {
@@ -124,7 +124,7 @@
 
 }
 .textmargin{
-    margin-top: 290px;
+    margin-top: 250px;
     margin-right: 300px;
     background-color: white;
     font-family: 'Lora', serif;
