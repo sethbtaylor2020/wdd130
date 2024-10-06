@@ -77,7 +77,7 @@
 .family {
     float: right;
     position:relative;
-    bottom: 250px;
+    bottom: 150px;
     height: 150px;
 
 }
@@ -130,7 +130,7 @@
     font-family: 'Lora', serif;
 }
 .textmargin2{
-    margin-top: 95px;
+    margin-top: 75px;
     font-family: 'Lora', serif;
 }
 
