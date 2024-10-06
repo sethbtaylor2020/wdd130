@@ -88,6 +88,7 @@
     width: auto;
     right: 0;
     bottom:0;
+    text-decoration: none;
 }
 .footer {
     position:bottom;
@@ -140,6 +141,7 @@
 .size{
     height: 25px;
     width: 25px;
+    text-decoration: none;
 }
 
 .rafting{
