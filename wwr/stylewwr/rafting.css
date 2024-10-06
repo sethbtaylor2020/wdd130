@@ -19,6 +19,7 @@
     border: 1px solid rgba(0, 0, 0, 1);
     padding: 2rem;
     background-image: url(../wwrimages/hero.jpg);
+    font-family: 'Roboto Slab', serif;
     
 }
 
@@ -31,6 +32,7 @@
     border: 1px solid rgba(0, 0, 0, 1);
     padding: 2rem;
     background-color: #7CA5B8;
+    font-family: 'Roboto Slab', serif;
     
 }
 
@@ -43,6 +45,7 @@
     border: 1px solid rgba(0, 0, 0, 1);
     padding: 2rem;
     background-color: #7CA5B8;
+    font-family: 'Roboto Slab', serif;
     
 }
 .logo {
@@ -61,6 +64,7 @@
     font: georgia;
     font-weight: 30;
     font-size: xx-large;
+    font-family: 'Lora', serif;
     
 }
 .family {
@@ -104,6 +108,7 @@
     bottom:100px;
     left:0px;
     bottom:0px;
+    font-family: 'Lora', serif;
 }
 
 .social{
@@ -119,6 +124,7 @@
     font-size: xx-large;
     font-style: Lora;
     background-color: white;
+    font-family: 'Lora', serif;
 
 }
 .wwr2{
@@ -137,9 +143,11 @@
     margin-top: 350px;
     margin-right: 300px;
     background-color: white;
+    font-family: 'Lora', serif;
 }
 .textmargin2{
     margin-top: 95px;
+    font-family: 'Lora', serif;
 }
 
 .size{
