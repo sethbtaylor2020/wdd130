@@ -79,15 +79,12 @@
 }
 
 .footer{
-	display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   background-color: #ace;
-   border: 1px black;
-}
-.footerfont{
 	font-size: small;
+	text-align: center;
 }
 .size{
 	height: 25px;
+}
+.nav{
+	text-decoration: none;
 }
