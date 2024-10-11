@@ -5,13 +5,14 @@
 	background-color: #2196F3;
 	padding: 10px;
 	row-gap: 50px;
+	justify-content: center;
   }
   .grid-container2 {
 	display: grid;
 	grid-template-columns: auto auto auto;
 	background-color: #2196F3;
 	padding: 10px;
-	row-gap: 50px;
+	
   }
 .logo{
 	grid-template-columns: 1fr;
@@ -21,17 +22,72 @@
 }
 .two {
 	background-color: #ace;
-	height: 100px;
-	justify-content: flex-start;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
 }
 .container2 {
  	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: center;
+	background-color: #ace;
 }
+.container3 {
+	display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   background-color: #ace;
+   border: 1px black;
+}
+.container4 {
+	display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   background-color: #ace;
+   border: 1px black;
+}
+
 .grid-item {
 	background-color: rgba(255, 255, 255, 0.8);
 	border: 1px solid rgba(0, 0, 0, 0.8);
 	padding: 5px;
 	align-items: center;
+}
+
+.family{
+	height: 100px;
+	flex-wrap: wrap;
+}
+.hero{
+	height: 125px;
+}
+.rafting{
+	height: 100px;
+}
+.wwrtext{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-color: #ace;
+	grid-template-columns: auto auto auto;
+
+}
+.historytext{
+	display: grid;
+	background-color: #ace;
+	font-size: small;
+	grid-template-columns: 4fr 1fr 4fr;
+}
+
+.footer{
+	display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   background-color: #ace;
+   border: 1px black;
+}
+.footerfont{
+	font-size: small;
+}
+.size{
+	height: 25px;
 }
