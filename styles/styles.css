@@ -1,8 +1,7 @@
 :root {
-    --padding:20px;
+    --padding: 20px;
     --color: steelblue;
 }
-
 
 nav {
     background-color: var(--color);
@@ -10,7 +9,7 @@ nav {
 }
 
 nav a {
-    color: white ;
+    color: white;
     display: block;
     padding: 20px;
 }
@@ -22,15 +21,15 @@ h1 {
 img {
     width: 150px;
     height: auto;
-    border: 1px solid (var(--color));
+    border: 1px solid var(--color);
     padding: 2px;
     box-shadow: 0 0 30px gray;
-
 }
 
 p {
     padding: var(--padding);
 }
+
 main {
     max-width: 840px;
 }
@@ -42,8 +41,6 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
-
-p {padding: 0;}
 
 aside {
     width: 20em;
