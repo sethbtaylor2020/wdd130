@@ -17,14 +17,15 @@
     height: 50px;
 }
 
-.two {
+.heroheading {
     background-color: #ace;
     text-align: center;
     align-items: center;
     justify-content: center;
     font-family: 'Roboto Slab', serif;
 }
-.container2 {
+.hero {
+	position: relative;
 	display: flex;
    flex-wrap: wrap;
    justify-content: center;
@@ -58,12 +59,14 @@
     height: 100px;
 }
 
-.hero {
+.heroimg {
     height: 125px;
+	float: right;
 }
 
 .rafting {
     height: 100px;
+	text-decoration: none;
 }
 
 .wwrtext {
