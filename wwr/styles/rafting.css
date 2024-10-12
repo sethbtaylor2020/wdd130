@@ -3,102 +3,96 @@
     --secondary-color: #020887; 
     --accent-color: #A9DBB8; 
 }
-  .grid-container2 {
-	display: grid;
-	grid-template-columns: auto auto auto;
-	background-color: #2196F3;
-	padding: 10px;
-  }
-.logo{
-	display: grid;
-	justify-content: center;
-	height:50px;
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
 }
+
+.logo {
+    display: grid;
+    justify-content: center;
+    height: 50px;
+}
+
 .two {
-	background-color: #ace;
-	text-align: center;
-	align-items: center;
-	justify-content: center;
-	font-family: 'Roboto Slab', serif;
+    background-color: #ace;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
 }
-.container2 {
- 	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	background-color: #ace;
-}
-.container3 {
-	display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   background-color: #ace;
-   border: 1px black;
-   font-family: 'Roboto Slab', serif;
-}
+
+.container2, 
+.container3, 
 .container4 {
-	display: grid;
-   flex-wrap: wrap;
-   justify-content: center;
-   background-color: #ace;
-   border: 1px black;
-   font-family: 'Roboto Slab', serif;
-   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #ace;
+    border: 1px solid black;
+    font-family: 'Roboto Slab', serif;
 }
 
 .grid-item {
-	background-color: rgba(255, 255, 255, 0.8);
-	border: 1px solid rgba(0, 0, 0, 0.8);
-	padding: 5px;
-	display: grid;
-	flex-wrap: wrap; 
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    display: grid;
 }
 
-.family{
-	height: 100px;
-	flex-wrap: wrap;
-}
-.hero{
-	height: 125px;
-}
-.rafting{
-	height: 100px;
-}
-.wwrtext{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	background-color: #ace;
-	grid-template-columns: auto auto auto;
-	font-family: 'Lora', serif;
-
-}
-.historytext{
-	display: grid;
-	background-color: #ace;
-	font-size: small;
-	grid-template-columns: 4fr 1fr 4fr;
-	font-family: 'Lora', serif;
+.family {
+    height: 100px;
 }
 
-.footer{
-	font-size: small;
-	text-align: right;
-	font-family: 'Lora', serif;
+.hero {
+    height: 125px;
 }
-.size{
-	height: 25px;
+
+.rafting {
+    height: 100px;
 }
-.nav{
-	text-decoration: none;
-	display: flex;
-    grid-template-columns: 1fr  1fr 1fr 1fr;
+
+.wwrtext {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #ace;
+    font-family: 'Lora', serif;
+}
+
+.historytext {
+    display: grid;
+    background-color: #ace;
+    font-size: small;
+    grid-template-columns: 4fr 1fr 4fr;
+    font-family: 'Lora', serif;
+}
+
+.footer {
+    font-size: small;
+    text-align: right;
+    font-family: 'Lora', serif;
+}
+
+.size {
+    height: 25px;
+}
+
+.nav {
+    text-decoration: none;
+    display: flex;
+    grid-template-columns: repeat(4, 1fr); /* Simplified using repeat */
     gap: 10px; 
-	justify-content: center;
-	align-items: center;
-	background-color: #2196F3;
-	padding: 5px;
-	font-family: 'Roboto Slab', serif;
+    justify-content: center;
+    align-items: center;
+    background-color: #2196F3;
+    padding: 5px;
+    font-family: 'Roboto Slab', serif;
 }
-.fig{
-	font-family: 'Lora', serif;
-	font-size: x-small;
+
+.fig {
+    font-family: 'Lora', serif;
+    font-size: x-small;
 }
