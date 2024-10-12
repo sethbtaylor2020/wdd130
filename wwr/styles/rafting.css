@@ -24,9 +24,20 @@
     justify-content: center;
     font-family: 'Roboto Slab', serif;
 }
-
-.container2, 
-.container3, 
+.container2 {
+	display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   background-color: #ace;
+}
+.container3 {
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #ace;
+  border: 1px black;
+  font-family: 'Roboto Slab', serif;
+}
 .container4 {
     display: flex;
     flex-wrap: wrap;
