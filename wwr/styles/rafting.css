@@ -36,12 +36,13 @@
    font-family: 'Roboto Slab', serif;
 }
 .container4 {
-	display: flex;
+	display: grid;
    flex-wrap: wrap;
    justify-content: center;
    background-color: #ace;
    border: 1px black;
    font-family: 'Roboto Slab', serif;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .grid-item {
