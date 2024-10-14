@@ -106,8 +106,9 @@
     background-color: #ace;
     font-family: 'Lora', serif;
 }
-
-
+.heroimg{
+height: 200px;
+}
 
 .family {
     float: right; 
