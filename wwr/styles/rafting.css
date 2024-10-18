@@ -67,7 +67,7 @@
 .nav {
     text-decoration: none;
     display: flex;
-    grid-template-columns: repeat(4, 1fr); /* Simplified using repeat */
+    grid-template-columns: repeat(4, 1fr); 
     gap: 10px; 
     justify-content: center;
     align-items: center;
