@@ -3,9 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="About us page for the White Water Rafting Company">
+    <meta name="description" content="Contact page for the White Water Rafting Company">
     <meta name="author" content="Seth Taylor">
-    <title>White Water Rafting: About Us</title>
+    <title>White Water Rafting: Contact</title>
     <link rel="stylesheet" href="styles/rafting.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,83 +13,93 @@
 </head>
 
 <body>
-    <header>
-        <div class="nav">
-            <div class="grid-item">
-                <img class="logo" src="wwrimages/raftinglogo.png" alt="Rafting Logo">
-            </div>
-                <nav class="nav">
-                    <div class="grid-item"><a href="#">Index</a></div> 
-                    <div class="grid-item"><a href="#">About Us</a></div> 
-                    <div class="grid-item"><a href="#">Trips</a></div>
-                    <div class="grid-item"><a href="#">Contact Us</a></div>
-                </nav>
-        </div>
+    <header class="header1">
+        <h1>WHITE WATER RAFTING CONTACT PAGE</h1>
     </header>
-    <main>
-        <section>
-            <div class="hero">
-                <div class="heroheading">
-                    <h1>White Water Rafting</h1>
-                </div>
-                <a class="wwrtext">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima incidunt facilis quis porro sunt, iusto maxime, atque explicabo eos tenetur distinctio beatae vel deleniti fugiat ullam qui officia. Aperiam, tenetur.<img class="family" src="wwrimages/happyfamily.jpg" alt="family"></p>
-                    
+    <main class="mainBC">
+        <section class="section1">
+            <div class="contact1">
+                <a class="article">
+                    <h1 class="hfont">White Water Rafting</h1>
+                    <p class="pfont">Give Us a Call! - (123)-456-7901</p>
+                </a>
+                <a class="article">
+                    <p class="hero">We love questions and feedback – and we're always happy to help!</p>
+                </a>
+                <a class="article">
+                    <h1 class="hfont">Send Us an Email!</h1>
+                    <p class="pfont">whitewaterrafting@gmail.com</p>
                 </a>
             </div>
         </section>
         
-        <section>
-                <div class="container3">
-                        <h2>History</h2>
+        <section class="section1">
+                <div class="containerlocation">
+                    <a class="article">
+                        <h2 class="hfont">Where we're Located</h2>
+                        <p class="pfont">177 Huntington Ave Ste 1703</p>
+                        <p class="pfont">We are located right in the heart of Idaho Falls!</p>
+                        <p class="pfont">Follow the signs from the highway!</p>
+                    </a>
+                    <a class="article">
+                        <h2 class="hfont">
+                        <form>
+                            <fieldset>
+                                <legend>Contact Information</legend>
+                                <div class="form-item column2">
+                                <label for="fullname">Full Name:</label>
+                                <input type="text" id="fullname" name="fullname">
+                                <label for="useremail">Email:</label>
+                                <input type="email" id="useremail" name="useremail">
+                                </div>
+                            </fieldset>
+                            <fieldset>
+                                <legend>Questions</legend>
+                                <label for="browser">Suggestions</label>
+                                <select id="browser" name="browser">
+                
+                                    <option value="chrome">General Inquiry</option>
+                                    <option value="firefox">Reservation Question</option>
+                                    <option value="safari">Website Suggestion</option>
+                                </select>
+                                <textarea id="feedback" name="feedback" rows="4" placeholder="Your suggestion"></textarea>
+                                <div class="form-item">
+                                    <label for="pet">Please subscribe me to the monthly newsletter</label>
+                                    <input type="checkbox" id="pet" name="pet">
+                                    </div>
+                            </fieldset>
+                            <button type="submit">Submit Poll</button>
+                        </form>
+                    </h2>
+                    </a>
+                    <a class="article">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2966.4520181205694!2d-111.95733792388599!3d43.78954284360208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDPCsDQ3JzIyLjMiTiAxMTHCsDU3JzE3LjIiVw!5e1!3m2!1sen!2sus!4v1729282152517!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </a>
                 </div>
-                    <div class="historytext">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima incidunt facilis quis porro sunt, iusto maxime, atque explicabo eos tenetur distinctio beatae vel deleniti fugiat ullam qui officia. Aperiam, tenetur.</p><p><img class="heroimg" src="wwrimages/hero.jpg" alt="hero"></p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tempora eaque expedita fugit voluptatibus cupiditate, asperiores recusandae velit earum autem dolorem corporis sed iure. Magnam deleniti sint rerum assumenda nulla?>
-                    </div>
-                    <p>
         </section>
         <section>
-                    <div class="container4">
-                        <h2>Adventure Awaits You</h2>
+                    <div class="containerstaff">
+                        <h2>Meet Our Staff!</h2>
                     </div>
-                    <div class="container4"> 
+                    <div class="containerstaff"> 
                             <figure>
-                               <img class="rafting" src="wwrimages/rafting1.jpg" alt="Rafting 1">
-                               <figcaption class="fig">rafting 1</figcaption>
+                               <img class="employee" src="wwrimages/johndoe.jpg" alt="John">
+                               <figcaption class="fig">John Doe</figcaption>
                             </figure>
                             <figure>
-                                <img class="rafting" src="wwrimages/rafting2.jpg" alt="Rafting 2">
-                                <figcaption class="fig">rafting 2</figcaption>
+                                <img class="employee" src="wwrimages/janedoe.jpg" alt="Jane">
+                                <figcaption class="fig">Jane Doe</figcaption>
                             </figure>
                             <figure>
-                                <img class="rafting" src="wwrimages/rafting3.jpg" alt="Rafting 3">
-                                <figcaption class="fig">rafting 3</figcaption>
-                            </figure>
-                            <figure>
-                                <img class="rafting" src="wwrimages/rafting4.jpg" alt="Rafting 4">
-                                <figcaption class="fig">rafting 4</figcaption>
-                            </figure>
-                            <figure>
-                                <img class="rafting" src="wwrimages/rafting5.jpg" alt="Rafting 5">
-                                <figcaption class="fig">rafting 5</figcaption>
+                                <img class="employee" src="wwrimages/janetdoe.jpg" alt="Janet">
+                                <figcaption class="fig">Janet Doe</figcaption>
                             </figure>
                 </div>
         </section>
     </main>
-        <footer class="footer">
+        <footer class="contactfooter">
             <p>© 2024 White Water Rafting | Seth Taylor</p>
-            <div class="social-links">
-                <a href="https://facebook.com" aria-label="Facebook">
-                    <img class="size" src="wwrimages/FB.png" alt="Facebook Logo">
-                </a>
-                <a href="https://x.com" aria-label="X (formerly Twitter)">
-                    <img class="size" src="wwrimages/x.png" alt="X Logo">
-                </a>
-                <a href="https://instagram.com" aria-label="Instagram">
-                    <img class="size" src="wwrimages/insta.png" alt="Instagram Logo">
-                </a>
-            </div>
+            <a href="https://app.moqups.com/r1KLHP9niajJWnfyhCrQTRJKFF5EnIa1/view/page/a65ef9a0b" title="Wireframe">Wireframe</a>
     </footer>
 </body>
 </html>
