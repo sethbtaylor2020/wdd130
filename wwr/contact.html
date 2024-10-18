@@ -15,6 +15,17 @@
 <body>
     <header class="header1">
         <h1>WHITE WATER RAFTING CONTACT PAGE</h1>
+        <div class="nav">
+            <div class="grid-item">
+                <img class="logo" src="wwrimages/raftinglogo.png" alt="Rafting Logo">
+            </div>
+                <nav class="nav">
+                    <div class="grid-item"><a href="#">Index</a></div> 
+                    <div class="grid-item"><a href="#">About Us</a></div> 
+                    <div class="grid-item"><a href="#">Trips</a></div>
+                    <div class="grid-item"><a href="#">Contact Us</a></div>
+                </nav>
+        </div>
     </header>
     <main class="mainBC">
         <section class="section1">
@@ -48,20 +59,30 @@
                         <fieldset>
                             <legend>Contact Information</legend>
                             <div class="form-item column2">
-                                <label for="fullname">Full Name:</label>
-                                <input type="text" id="fullname" name="fullname">
+                                <label for="firstname">First Name:</label>
+                                <input type="text" id="firstname" name="firstname">
+                                <label for="lastname">Last Name:</label>
+                                <input type="text" id="lastname" name="lastname">
                                 <label for="useremail">Email:</label>
                                 <input type="email" id="useremail" name="useremail">
                             </div>
                         </fieldset>
                         <fieldset>
-                            <legend>Questions</legend>
-                            <label for="browser">Suggestions</label>
-                            <select id="browser" name="browser">
-                                <option value="chrome">General Inquiry</option>
-                                <option value="firefox">Reservation Question</option>
-                                <option value="safari">Website Suggestion</option>
-                            </select>
+                            <fieldset>
+                                <legend>Select a maintenance drone:</legend>
+                                <div>
+                                  <input type="radio" id="huey" name="drone" value="huey" checked />
+                                  <label for="huey">General Inquiry</label>
+                                </div>
+                                <div>
+                                  <input type="radio" id="dewey" name="drone" value="dewey" />
+                                  <label for="dewey">Reservation Question</label>
+                                </div>
+                                <div>
+                                  <input type="radio" id="louie" name="drone" value="louie" />
+                                  <label for="louie">Website Suggestion</label>
+                                </div>
+                              </fieldset>
                             <textarea id="feedback" name="feedback" rows="4" placeholder="Your suggestion"></textarea>
                             <div class="form-item">
                                 <label for="pet">Please subscribe me to the monthly newsletter</label>
@@ -72,7 +93,7 @@
                     </form>
                 </div>
 
-                <div class="article">
+                <div">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2966.4520181205694!2d-111.95733792388599!3d43.78954284360208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDPCsDQ3JzIyLjMiTiAxMTHCsDU3JzE3LjIiVw!5e1!3m2!1sen!2sus!4v1729282152517!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
