@@ -13,6 +13,7 @@
 
 .logo {
     display: grid;
+    justify-content: center;
     padding: 10px;
     height: 100px;
 }
@@ -57,6 +58,8 @@
 }
 
 .footer {
+    display: grid;
+    grid-template-columns: 1 fr 1fr 1fr 1fr;
     font-size: small;
     text-align: right;
     font-family: 'Lora', serif;
@@ -104,7 +107,7 @@
 
 .wwrtext {
     position: relative;
-    max-width: 500px; 
+    max-width: auto; 
     background-color: #ace;
     font-family: 'Lora', serif;
 }
@@ -178,10 +181,12 @@ height: 200px;
 }
 .contactfooter{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 5px;
+    align-items: center;
     font-size: small;
     text-align: right;
     font-family: 'Lora', serif;
     font-weight: bold;
-    background-color: var(--primary-color);
+    
 }
