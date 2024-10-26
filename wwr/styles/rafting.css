@@ -208,9 +208,7 @@ height: 200px;
     font-family: 'Lora', serif;
     font-weight: bold;
     padding: 5px;
-    
     text-decoration: none;
-    
 }
 
 .logo2 {
@@ -222,7 +220,8 @@ height: 200px;
 .h1homemessage{
     display: flex;
     justify-content: center;
-    background-color: var(--primary-color)
+    background-color: var(--primary-color);
+    font-family: 'Roboto Slab', serif;
 }
 .grid-itemHP {
     display: grid;
@@ -246,6 +245,7 @@ height: 200px;
 }
 .customertest{
     background-color: var(--primary-color);
+    font-family: 'Roboto Slab', serif;
 }
 .clickhere{
     display: flex;
