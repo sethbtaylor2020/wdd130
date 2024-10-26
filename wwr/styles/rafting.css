@@ -188,3 +188,31 @@ height: 200px;
     font-family: 'Lora', serif;
     font-weight: bold;
 }
+
+.homehero{
+    background-image: url("/wwr/wwrimages/hero.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 500px;
+}
+.link{
+    background: url("https://noc.com/wp-content/uploads/2022/06/IMG_0023-1680x1120.jpg");
+    height: 700px;
+}
+.headertext{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 5px;
+    font-size: large;
+    text-align: right;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+}
+.logo2 {
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+    height: 100px;
+}
