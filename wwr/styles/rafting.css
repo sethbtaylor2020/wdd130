@@ -270,7 +270,7 @@ height: 200px;
 }
 .HPfooter{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     font-size: small;
     text-align: right;
     font-family: 'Lora', serif;
@@ -286,7 +286,9 @@ height: 200px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.tripsdescription
+.tripsdescription{
+    background-color: var(--primary-color);
+}
 /* FOURM CSS */
 form {
     width: 650px;
